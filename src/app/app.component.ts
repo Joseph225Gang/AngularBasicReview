@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'newApp';
+  newApp = "App";
+
+  handleclick() {
+    console.log('hey I am  clicked in child');
+  }
 }
